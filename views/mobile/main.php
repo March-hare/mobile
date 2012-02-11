@@ -1,4 +1,6 @@
 <div class="block">
+
+	<h2 class="map"><a href="<?php echo url::site()."mobile/map" ?>">View Map</a></h2>
 	<h2 class="submit"><a href="<?php echo url::site()."mobile/reports/submit/" ?>">Submit A Report</a></h2>
 </div>
 <div class="block">

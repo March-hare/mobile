@@ -58,6 +58,7 @@ div#page{
 	div#page .block{
 		margin-bottom:10px;
 	}
+		div#page .block .map,
 		div#page .block .submit,
 		div#page .block .other,
 		div#page .block .expand a {
@@ -71,10 +72,12 @@ div#page{
 				padding-left:10px;
 				color:#999;
 			}
+		div#page .block .map, 
 		div#page .block .submit {
 			background: #368C00 url(../images/submit-incident.jpg) 6px 7px no-repeat;
 			padding-left:30px;
 		}
+		div#page .block .map a,
 		div#page .block .submit a{
 			color:#fff;
 			display:block;
@@ -269,8 +272,8 @@ div#page{
 			}
 	
 #map_canvas{
-	width:100%;
-	height:300px;
+	width:573px;
+	height:366px;
 	border:1px solid #ccc;
 	margin:15px 0 0 0;
 }		
